@@ -7,7 +7,8 @@
 
   - name: Hello Server
     debug:
-      msg: "Hello {{ item }}"
-      loop:
-        - world
-        -ansible
+        msg: " {{ item }}ist sehr schmackhaft."
+    loop:
+      - Reisdorf
+      - Früh
+      - Gaffel
