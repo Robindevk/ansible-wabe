@@ -7,4 +7,7 @@
 
   - name: Hello Server
     debug:
-      msg: "Hello {{ unnormal_belohnend }} !" 
+      msg: "Hello {{ item }}"
+      loop:
+        - world
+        -ansible
