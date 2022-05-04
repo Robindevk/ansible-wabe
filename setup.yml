@@ -7,12 +7,4 @@
 
   - name: Hello Server
     debug:
-      msg: "Hello Worlds!" 
-      
-  - name: Create an insecure file
-    file:
-      path: /etc/testfile
-      owner: root
-      group: root
-      state: touch
-      mode: '1777'
+      msg: "Hello {{ unnormal_belohnend }} !" 
